@@ -1,0 +1,88 @@
+.App {
+  text-align: center;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.lContainer {
+  display:grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto 38px;
+  justify-items: center;
+  align-items: center;
+  grid-template-rows: 100vh;
+  background-color: #f6f6f6;
+}
+
+.spanLink{
+  color: #1890ff;
+  background-color: transparent;
+  text-decoration: none;
+  outline: none;
+  cursor: pointer;
+  transition: color .3s;
+}
+
+
+.footer {
+  color: rgb(206, 212, 217);
+  text-align: center;
+  font-size: 12px;
+  padding: 1rem;
+  user-select: none;
+  margin-top:-45px;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+
+.login-form {
+  width: 300px;
+}
+.login-form-forgot {
+  float: right;
+}
+.login-form-button {
+  width: 100%;
+}
+
+.hidden {
+  display: none;
+}
+
+.lItem {
+  width:300px;
+}
+
+.loginForm {
+  background-color: white;
+  padding-left: 30px;
+  padding-top: 20px;
+    margin-top: -60px;
+    margin-left:-30px;
+    margin-right:-30px;
+    border-radius: 8px;
+    border: 1px solid #d8d8da;
+}
+.loginImage {
+  margin-top: -160px;
+  margin-bottom: 70px;
+}
+
+tbody {
+  font-size: 14px;
+}
+
+.footerLink {
+  text-decoration: none;
+  color: rgb(206, 212, 217);;
+}
