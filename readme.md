@@ -38,7 +38,7 @@ You UI page should look like this:
 ![img](assets/img4.png)
 
 
-6. You login page should be publicly available by the URL provided on the UI page record.
+6. Your login page should be publicly available by the URL provided on the UI page record.
 
 ## Contacts
 Questions, requests for customization or development services - support@dev-labs.io
